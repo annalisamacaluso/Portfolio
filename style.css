@@ -1,0 +1,99 @@
+/* Navbar Classes */
+.auth-image{
+    float: left;
+    margin: 20px;
+  }
+
+  nav{
+    font-family: 'Playfair Display', serif;
+  }
+
+/* About Card Styles */
+
+.card{
+    width: 50%;
+}
+
+/* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+  font-family: 'Playfair Display', serif;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+#sticky-footer{
+    border-top-style: solid;
+    border-top-color: aquamarine;
+    border-top-width: 6px;
+  }
+
+
+/* All pages styles */
+body{
+  background-image: url(https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/20786099_10155671992058552_8823696920423884524_o.jpg?_nc_cat=104&_nc_ohc=71QqA8NrUh0AQmB9cKrtCqR02f0yY12O02TofZgi-HVRpK73dEGdZnzOQ&_nc_ht=scontent-lax3-1.xx&oh=394b006a307a4c6ac09da269788829a2&oe=5E8D08B8);
+  background-size: cover;
+}
+
+#logo{
+  background-color: lightsalmon;
+  padding: 5px;
+  font-family: 'Playfair Display', serif;;
+}
+
+.bodycontainer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* Portfolio styles */
+
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
